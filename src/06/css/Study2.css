@@ -1,0 +1,19 @@
+* {
+    font-size: 30px;
+}
+
+#subject {
+    color: darkgray !important; 
+}
+
+#subject {
+    color: blueviolet;
+}
+
+.content {
+    color: chartreuse;
+}
+
+.content {
+    color: brown;
+}
