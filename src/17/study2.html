@@ -7,28 +7,28 @@
     <title>Document</title>
     <style>
         #box {
-            width: 100px;
-            height: 100px;
+            width:100px;
+            height:100px;
 
-            background-color: black;
+            background-color: Black;
         }
     </style>
 </head>
 <body>
-    <div id="box">1</div>
+    <div id="box" src="aaaaa">1</div>
 
     <script>
-        const box = document.querySelector("#box");
-        console.log(box.style.backgroundColor)
-        box.onclick = () => {
-            if(box.style.backgroundColor == "black" || box.style.backgroundColor == "")  {
-                box.style.backgroundColor = 'red';
-            } else {
-                box.style.backgroundColor = 'black'
+        const box1 = document.querySelector("#box");
+
+        console.log(box1.style.backgroundColor);
+
+        box1.onclick = () => {
+            if(box1.style.backgroundColor == "black" || box1.style.backgroundColor == ""){
+                box1.style.backgroundColor = "red";
+            }else{
+                box1.style.backgroundColor = "black";
             }
         }
-
     </script>
-
 </body>
 </html>

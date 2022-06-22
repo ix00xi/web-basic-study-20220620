@@ -14,38 +14,38 @@
     <button type="button" class="r-btn">노드 삭제</button>
 
     <script>
-        const container = document.querySelector('#container');
-        const btn = document.querySelector('.btn');
-        const rBtn = document.querySelector('.r-btn');
+        const container = document.querySelector("#container");
+        const btn = document.querySelector(".btn");
+        const rBtn = document.querySelector(".r-btn");
 
         rBtn.onclick = () => {
-            const remove = document.querySelector('.remove');
+            const remove = document.querySelector(".remove");
             remove.parentNode.removeChild(remove);
         }
+
+
 
         btn.onclick = () => {
             const div1 = document.createElement("div");
             const h1 = document.createElement("h1");
             const p = document.createElement("p");
-            const text1 = document.createTextNode('Dom 노드 study');
-            const text2 = document.createTextNode('안녕하세요. java script 수업입니다.')
-            
-            const input1 = document.createElement('input');
-            const attribute1 = document.createAttribute('type');
-            attribute1.value = "password"; 
+            const text1 = document.createTextNode("Dom 노드 Study");
+            const text2 = document.createTextNode("안녕하세요. javascript 수업입니다.");
 
-
+            const input1 = document.createElement("input");
+            const attribute1 = document.createAttribute("type");
+            attribute1.value = "password";
 
             h1.appendChild(text1);
             p.appendChild(text2);
-            input1.setAttributeNode(attribute1);
             div1.appendChild(h1);
             div1.appendChild(p);
             div1.appendChild(input1);
+            input1.setAttributeNode(attribute1);
+
             container.appendChild(div1);
         }
 
     </script>
-
 </body>
 </html>
