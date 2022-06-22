@@ -2,12 +2,12 @@
     "code": 1,
     "msg": "유저정보 로드 성공",
     "data": {
-        "usercode": 20220621,
-        "username": "joohong",
+        "usercode": 202206021,
+        "username": "junil",
         "password": "1234",
-        "name": "전주홍",
-        "email": "izx43@naver.com",
+        "name": "김준일",
+        "email": "skjil1218@kakao.com",
         "role": ["ROLE_ADMIN", "ROLE_USER"],
-        "povider": "naver"
+        "provider": "naver"
     }
 }
